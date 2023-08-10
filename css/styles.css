@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.name {
+  color: rgb(33, 150, 243);
+  text-decoration: none;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
+.header-list .header-items .link-header {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+}
+.header-list {
+  list-style: none;
+}
+.header-list .header-items .link-header:hover {
+  color: rgb(33, 150, 243);
+}
+.second-list .second-items .gris {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+}
+.second-list .second-items .gris:hover {
+  color: rgb(33, 150, 243);
+}
+.second-list {
+  list-style: none;
+}
+.list {
+  list-style: none;
+}
+.mision-list {
+  list-style: none;
+}
+.teamlist-card {
+  list-style: none;
+}
+.main-section {
+  background-color: rgb(47, 48, 58);
+}
+.white {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-size: 44px;
+}
+.mainbutton {
+  color: #ffffff;
+  background-color: rgb(33, 150, 243);
+  border: none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  font-size: 16px;
+}
+.subtitle {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-size: 14px;
+}
+.subtitle-dos {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-size: 14px;
+  line-height: 1.87;
+}
+.parrafo {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-size: 14px;
+}
+.parrafod {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-size: 16px;
+}
+.sub {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  font-size: 36px;
+}
+.subname {
+  color: rgb(33, 33, 33);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-size: 16px;
+}
+.info-list {
+  background-color: #2f303a;
+  list-style: none;
+}
+.info .link-foot {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+.info .link-footer {
+  color: rgb(117, 117, 117);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-weight: 400;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+.button {
+  color: rgb(33, 33, 33);
+  background-color: rgb(245, 244, 250);
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  line-height: 1.62;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.button:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+}
+.grafic {
+  color: rgb(33, 33, 33);
+  font-weight: 700;
+  line-height: 2;
+  font-size: 18px;
+  letter-spacing: 0.06em;
+}
+.text {
+  color: rgb(117, 117, 117);
+  font-weight: 400;
+  line-height: 1.87;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+}
+.img-section {
+  list-style: none;
+}
+.filetwo {
+  list-style: none;
+}
+.filethree {
+  list-style: none;
+}
+.principal-list {
+  list-style: none;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: o 15px;
+}
+.teamlist-card .teamitem-card {
+  width: 270px;
+  height: 368px;
+}
