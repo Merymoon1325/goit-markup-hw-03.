@@ -12,9 +12,9 @@
   </head>
 
   <body>
-    <header class="container">
-      <nav>
-        <a class="name" href="#">Web Studio</a>
+    <header class="container flex">
+      <nav class="flex">
+        <a class="name p-name" href="#">Web Studio</a>
         <ul class="header-list">
           <li class="header-items">
             <a class="link-header" href="#">Estudio</a>
@@ -28,7 +28,7 @@
         </ul>
       </nav>
 
-      <ul class="second-list">
+      <ul class="second-list flex">
         <li class="second-items">
           <a class="gris" href="mailto:info@devstudio.com"
             >info@devstudio.com</a
@@ -41,17 +41,17 @@
     </header>
 
     <main id="main">
-      <section class="main-section">
-        <div class="container">
-          <h1 class="white">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+      <section class="main-section container">
+        <h1 class="white">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+        <div class="position">
           <button class="mainbutton" type="button">
             Solicite nuestro servicio
           </button>
         </div>
       </section>
 
-      <section id="charact" class="container">
-        <ul class="list">
+      <section id="charact" class="container section">
+        <ul class="list flex p-0">
           <li class="items">
             <h3 class="subtitle">Atención a los detalles</h3>
             <p class="parrafo">
@@ -84,9 +84,11 @@
         </ul>
       </section>
 
-      <section id="mision" class="container">
-        <h2 class="sub">A qué nos dedicamos</h2>
-        <ul class="mision-list">
+      <section id="mision" class="container section">
+        <div class="container-mision">
+          <h2 class="sub">A qué nos dedicamos</h2>
+        </div>
+        <ul class="mision-list flex">
           <li class="mision-items">
             <img src="./img/1.jpg" alt="Imagen 1" width="373" height="323" />
           </li>
@@ -99,9 +101,11 @@
         </ul>
       </section>
 
-      <section id="team" class="container">
-        <h2 class="sub">Nuestro equipo</h2>
-        <ul class="teamlist-card">
+      <section id="team" class="container section">
+        <div class="container-team">
+          <h2 class="sub">Nuestro equipo</h2>
+        </div>
+        <ul class="teamlist-card flex">
           <li class="teamitem-card">
             <img
               src="./img/Equipo1.jpg"
