@@ -56,6 +56,7 @@
 .main-section {
   background-color: rgb(47, 48, 58);
 }
+
 .white {
   color: rgb(255, 255, 255);
   font-family: "Roboto", sans-serif;
@@ -65,10 +66,9 @@
   text-align: center;
   font-size: 44px;
   margin: 0px;
-  padding-top: 200px;
-  padding-bottom: 30px;
-  padding-left: 252px;
-  padding-right: 252px;
+  padding-top: 200px; 
+  padding-left: 250px;
+  padding-right: 250px;*/
 }
 .mainbutton {
   color: #ffffff;
@@ -181,6 +181,8 @@
   line-height: 2;
   font-size: 18px;
   letter-spacing: 0.06em;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .text {
   color: rgb(117, 117, 117);
@@ -188,6 +190,8 @@
   line-height: 1.87;
   font-size: 16px;
   letter-spacing: 0.03em;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 .img-section {
   list-style: none;
@@ -205,10 +209,13 @@
   justify-content: center;
   gap: 8px;
 }
+.main-section {
+  background-color: rgb(47, 48, 58);
+}
 .container {
   width: 1200px;
   margin: 0 auto;
-  padding: o 15px;
+  padding: 0 15px;
 }
 .teamlist-card .teamitem-card {
   width: 270px;
@@ -229,35 +236,49 @@
   width: 370px;
   height: 404px;
 }
-.flex {
+/* .flex {
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+  gap: 90px;
+} */
+.flex-header {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.flex-navegation {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.flex-contact {
+  display: flex;
+  align-items: center;
+  gap: 90px;
 }
 .flexp {
-  display: flex;
-  flex-wrap: wrap;
+ display: flex;
+ flex-wrap: wrap;
+ gap: 30px;
+}
+.img-item {
+  flex-basis: calc((100% - 60px) / 3);
+  border: 1px solid rgb(238, 238, 238);
+  background: rgb(255, 255, 255);
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12)
 }
 .p-name {
   display: flex;
-  padding-left: 115px;
-  padding-top: 24px;
-  padding-bottom: 25px;
-  padding-right: 25px;
 }
 /* .flex { 
 }*/
 .header-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  column-gap: 16px;
+  gap: 50px;
 }
 .second-list.flex {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  padding-right: 119px;
-  column-gap: 16px;
+  gap: 50px;
 }
 * {
   margin: 0px;
@@ -289,10 +310,11 @@
 .teamlist-card.flex {
   padding-bottom: 94px;
 }
-.main-section.container {
+.main-section .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 30px;
 }
 .position {
   padding-top: 30px;
@@ -329,5 +351,44 @@
   padding-bottom: 50px;
 }
 .img-section {
+  padding-bottom: 82px;
+}
+.container.flex-header {
+  height: 80px;
+}
+.container-div {
+  background-color: rgb(47, 48, 58);
+}
+.position {
+  display: flex;
+  justify-content: center;
+}
+.flex-services {
+  display: flex;
+  gap: 30px;
+}
+.flex-mision {
+  display: flex;
+  gap: 30px;
+}
+.flex-card {
+  display: flex;
+  gap: 30px;
+}
+.section-team {
+  background-color: rgb(245, 244, 250);
+  padding-bottom: 94px;
+}
+.footer {
+  background-color: rgb(47, 48, 58);
+}
+.img-section .flexp {
+  padding: 0px;
+}
+.principal-section .container{
+  padding: 0px;
+}
+.img-section {
+  padding: 0px;
   padding-bottom: 82px;
 }
