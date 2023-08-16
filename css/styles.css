@@ -175,6 +175,10 @@
   color: rgb(255, 255, 255);
   background-color: rgb(33, 150, 243);
 }
+.button:focus {
+  color: rgb(255, 255, 255);
+  background-color: rgb(33, 150, 243);
+}
 .grafic {
   color: rgb(33, 33, 33);
   font-weight: 700;
@@ -398,4 +402,7 @@
 .info-list {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.link-header.header_menu.current {
+  color: rgb(33, 150, 243);
 }
